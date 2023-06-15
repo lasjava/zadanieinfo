@@ -1,0 +1,76 @@
+*{
+	margin: 0; 
+	padding: 0
+	box-sizing: content-box;
+}
+
+body{
+	background-color: pink;	
+}
+#wrapper{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+header img{
+	width:100%
+	display: block;
+}
+
+nav {
+	background-color: white; 
+}
+
+nav a {}
+
+a.menu{
+	display: inline-block;
+	width:27%;
+	padding: 15px 30px 15px 30px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	background-color: red
+
+}
+a.menu:hover {
+	border-bottom: 10px solid purple;
+}
+
+.active {
+	background-color: solid purple;
+}
+
+article {
+	margin-top:30px;
+	margin-bottom: 20px;
+	padding: 0 20px;
+}
+
+article h1 {
+	font-size:30px;
+	text-align: center;
+	margin: 0 20% 20px 20%;
+	padding-bottom: 15px;
+	border: 2px solid purple;
+}
+img.left{
+	float:left;
+	padding: 0px 10px 10px 0; 
+	width:25%;
+	border-radius: 50%
+	
+} 
+
+article p {
+	text-align: justify
+	line-height: 25px;
+	font-size: 18px;
+	padding: 15px 0 15px 0;
+}
+
+iframe {
+	width: 100%
+}
+
